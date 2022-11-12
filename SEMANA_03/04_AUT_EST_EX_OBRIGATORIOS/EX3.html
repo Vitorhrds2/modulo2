@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Celsius para Farenheit e vice-versa</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <form name="form" method="get">
+        <b>Digite o valor da temperatura e em seguida escolha a medida para qual será convertida (Celsius ou Farenheit): </b><p/>
+
+        Valor da temperatura: <input type="number" id="valorTemp" value=""><p>
+
+Converter para:
+<input type="radio" id="celsius" name="temp" value="CELSIUS">
+<label for="celsius">Celsius</label>
+<input type="radio" id="farenheit" name="temp" value="FARENHEIT">
+<label for="farenheit">Farenheit</label><p>
+
+<input type="button" name="botao" onclick="temperatura();" value="Converter">
+    </form>
+    
+    <div id="saida"></div>
+</body>
+</html>

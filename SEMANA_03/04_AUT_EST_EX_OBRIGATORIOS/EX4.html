@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de consumo de energia eletrica</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <form name="form" method="get">
+        <b>Digite os valores abaixo para calcular a conta de consumo de energia elétrica de uma casa:</b><p/>
+
+        Quantidade de Kwh consumidos: <input type="number" id="qtdKwh" value=""><p/>
+
+
+        Valor unitário do Kwh: <input type="number" id="valorKwh" value=""><p/>
+
+
+        <input type="button" name="botao" onclick="consumoEnergia();" value="Calcular">
+    </form>
+    <div id="saida"></div>
+</body>
+</html>
