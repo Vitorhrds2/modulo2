@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+
+.infosCandidato {
+    background: grey;
+    width: 30%;
+    height: 150%;
+    color: #ffffff;
+    margin: -60px;
+    padding-top: 20px;
+}
+
+.fotoCandidato {
+    width: 100%;
+    padding: 90px 90px;
+    width: 85px;
+    height: 25px;
+    margin-left: 80px;
+    margin-top: 40px;
+    color: #000000;
+    position: relative;
+}
+.foto {
+    margin: -90px;
+    max-width: 200%;
+    height: auto;
+  }
+
+.xpAnteriores {
+    background: #FFFFFF;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding-left: 12px;
+    width: 50%;
+    position: absolute;
+}
+
+.dadosPessoais {
+    color: #FFFFFF;
+    background: deepskyblue;
+    margin-top: 10px;
+    left: 50.7%;
+    padding-left: 12px;
+    width: 49%;
+    height: 138.6%;
+    position: absolute;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+  }
