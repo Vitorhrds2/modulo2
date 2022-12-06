@@ -32,5 +32,5 @@ app.get('/sobre', (req, res) => {
 });
 
 app.listen(port, hostname, () => {
-  console.log(`Servidor rodando em http://${hostname}:${port}/sobre`);
+  console.log(`Servidor rodando em http://${hostname}:${port}`);
 });
