@@ -80,7 +80,7 @@ function TestGETDB(){
     var resposta;
 
     var xhttp = new XMLHttpRequest();
-    xhttp.open("GET", url, false);
+    xhttp.open("GET", url, true);
     xhttp.send();//A execução do script pára aqui até a requisição retornar do servidor
 
     resposta = JSON.parse(xhttp.responseText);
